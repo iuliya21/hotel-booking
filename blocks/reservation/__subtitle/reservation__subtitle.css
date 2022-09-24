@@ -1,0 +1,11 @@
+.reservation__subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #848FAC;
+  text-align: center;
+  margin: 24px auto 32px;
+  max-width: 588px;
+}

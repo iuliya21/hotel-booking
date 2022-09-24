@@ -1,0 +1,5 @@
+.benefit__activity {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1094px;
+}

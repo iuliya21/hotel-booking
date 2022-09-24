@@ -1,0 +1,17 @@
+.booking-house__image {
+  margin-right: 24px;
+  width: 180px;
+  height: 588px;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.booking-house__image:last-child {
+  margin-right: 0;
+}
+
+
+.booking-house__image:nth-last-child(2) {
+  transform: translateY(81px);
+}

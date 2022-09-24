@@ -1,0 +1,6 @@
+.interior__slider {
+  display: flex;
+  position: absolute; 
+  column-gap: 12px;
+  align-items: center;
+}

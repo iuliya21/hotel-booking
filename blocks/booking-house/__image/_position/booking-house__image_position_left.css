@@ -1,0 +1,14 @@
+@keyframes opacity_left {
+  to {
+    background-image: url(../../../../images/meritt-thomas-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 588px;
+  }
+}
+
+.booking-house__image_position_left {
+  background-image: url(../../../../images/meritt-thomas-1-before.png);
+  animation: opacity_left 5s 1s forwards;
+}

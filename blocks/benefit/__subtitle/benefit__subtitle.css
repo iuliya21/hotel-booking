@@ -1,0 +1,10 @@
+.benefit__subtitle {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #848FAC;
+  max-width: 584px;
+}

@@ -1,0 +1,8 @@
+.benefit {
+  padding: 80px 0 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

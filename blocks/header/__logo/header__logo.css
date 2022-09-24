@@ -1,0 +1,9 @@
+.header__logo {
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #192252;
+  line-height: 1.22;
+}

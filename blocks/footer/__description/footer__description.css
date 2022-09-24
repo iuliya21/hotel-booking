@@ -1,0 +1,4 @@
+.footer__description {
+  display: flex;
+  column-gap: 96px;
+}
