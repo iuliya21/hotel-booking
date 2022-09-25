@@ -25,5 +25,6 @@
   .about-us {
     flex-direction: column;
     row-gap: 15px;
+    padding: 60px 10px 20px;
   }
 }

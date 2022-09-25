@@ -19,3 +19,16 @@
     row-gap: 10px;
   }
 }
+
+@media screen and (max-width: 549px) {
+  .footer__list {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .footer__list:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -7,3 +7,9 @@
     padding: 10px 15px;
   }
 }
+
+@media screen and (max-width: 549px) {
+  .button_place_header {
+    margin: 0;
+  }
+}

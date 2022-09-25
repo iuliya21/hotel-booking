@@ -61,12 +61,12 @@
 @import url(../blocks/reservation/__house-subtitle/reservation__house-subtitle.css);
 @import url(../blocks/reservation/__house-link/reservation__house-link.css);
 @import url(../blocks/reservation/__image/reservation__image.css);
-@import url(../blocks/reservation//__grid-one/reservation__grid-one.css);
-@import url(../blocks/reservation//__grid-two/reservation__grid-two.css);
-@import url(../blocks/reservation//__grid-three/reservation__grid-three.css);
-@import url(../blocks/reservation//__grid-four/reservation__grid-four.css);
-@import url(../blocks/reservation//__grid-five/reservation__grid-five.css);
-@import url(../blocks/reservation//__grid-six/reservation__grid-six.css);
+@import url(../blocks/reservation/__small-house/reservation__small-house.css);
+@import url(../blocks/reservation/__small-house-link/reservation__small-house-link.css);
+@import url(../blocks/reservation/__big-house/reservation__big-house.css);
+@import url(../blocks/reservation/__big-house-link/reservation__big-house-link.css);
+@import url(../blocks/reservation/__two-storey-house-link/reservation__two-storey-house-link.css);
+@import url(../blocks/reservation/__two-storey-house/reservation__two-storey-house.css);
 
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__title/reviews__title.css);

@@ -1,7 +1,7 @@
 @media screen and (max-width: 549px) {
-  .reservation__grid-four {
+  .reservation__small-house-link {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 1;
     z-index: 1;
     align-self: end;
   }

@@ -15,6 +15,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .benefit__title {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 549px) {
   .benefit__title {
     font-size: 15px;

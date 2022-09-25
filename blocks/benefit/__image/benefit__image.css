@@ -1,5 +1,4 @@
 .benefit__image {
-  width: 100%;
   object-fit: contain;
 }
 
@@ -12,5 +11,6 @@
 @media screen and (max-width: 767px) {
   .benefit__image {
     max-width: 300px;
+    margin: 0 auto;
   }
 }

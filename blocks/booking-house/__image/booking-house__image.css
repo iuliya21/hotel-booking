@@ -11,21 +11,46 @@
   margin-right: 0;
 }
 
-
 .booking-house__image:nth-last-child(2) {
   transform: translateY(81px);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1439px) {
   .booking-house__image {
-    margin-right: 12px;
-    width: 18vw;
-    height: 57vw;
+    width: 135px;
+    height: 441px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .booking-house__image:nth-last-child(2) {
+    transform: translateY(61px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .booking-house__image {
+    width: 101px;
+    height: 331px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .booking-house__image:nth-last-child(2) {
+    transform: translateY(46px);
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .booking-house__image {
+    width: 76px;
+    height: 248px;
+    margin-right: 8px;
   }
 }
 
 @media screen and (max-width: 549px) {
   .booking-house__image:nth-last-child(2) {
-    transform: translateY(25px);
+    transform: translateY(35px);
   }
 }

@@ -3,20 +3,8 @@
   max-width: 588px;
 }
 
-@media screen and (max-width: 1279px) {
-  .booking-house__images {
-    max-width: 517px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .booking-house__images {
-    max-width: 408px;
-  }
-}
-
 @media screen and (max-width: 549px) {
   .booking-house__images {
-    margin: 0 auto;
+    justify-content: center;
   }
 }

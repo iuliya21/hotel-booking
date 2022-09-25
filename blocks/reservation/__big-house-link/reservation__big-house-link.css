@@ -1,6 +1,8 @@
 @media screen and (max-width: 549px) {
-  .reservation__grid-three {
+  .reservation__big-house-link {
     grid-column: 2;
     grid-row: 2;
+    z-index: 1;
+    align-self: end;
   }
 }

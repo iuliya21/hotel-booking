@@ -12,3 +12,14 @@
   background-image: url(../../../../images/meritt-thomas-2-before.png);
   animation: opacity_middle 5s 1s forwards;
 }
+
+@media screen and (max-width: 1439px) {
+  @keyframes opacity_middle {
+    to {
+      background-image: url(../../../../images/meritt-thomas-2.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-width: 135px;
+    }
+  }
+}
