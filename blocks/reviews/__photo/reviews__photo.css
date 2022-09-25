@@ -2,3 +2,15 @@
   margin: 62px auto 44px;
   display: block;
 }
+
+@media screen and (max-width: 1023px) {
+  .reviews__photo {
+    margin: 30px auto 20px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .reviews__photo {
+    margin: 10px auto 10px;
+  }
+}

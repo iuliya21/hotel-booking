@@ -6,3 +6,28 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1279px) {
+  .benefit {
+    padding: 80px 20px 80px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .benefit {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .benefit {
+    padding: 40px 20px 40px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .benefit {
+    padding: 15px;
+    row-gap: 10px;
+  }
+}

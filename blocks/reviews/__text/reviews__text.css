@@ -8,3 +8,11 @@
   line-height: 1.5;
   color: #192252;
 }
+
+@media screen and (max-width: 549px) {
+  .reviews__text {
+    margin: 10px auto 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+}

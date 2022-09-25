@@ -1,4 +1,9 @@
 .header__nav-link {
   text-decoration: none;
   color: #192252;
+  transition: opacity .3s linear .3s;
+}
+
+.header__nav-link:hover {
+  opacity: .4;
 }

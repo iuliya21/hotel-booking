@@ -8,3 +8,22 @@
   color: #D9DBDE;
   margin: 13px 0 39px;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__slogan {
+    font-size: 12px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .footer__slogan {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .footer__slogan {
+    margin: 10px 0 10px;
+  }
+}

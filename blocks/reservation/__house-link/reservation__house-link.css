@@ -6,4 +6,21 @@
   line-height: 1.5;
   color: #424F7B;
   text-decoration: none;
+  transition: opacity .3s linear .3s;
+}
+
+.reservation__house-link:hover {
+  opacity: .4;
+}
+
+@media screen and (max-width: 767px) {
+  .reservation__house-link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .reservation__house-link {
+    font-size: 10px;
+  }
 }

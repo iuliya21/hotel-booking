@@ -1,0 +1,28 @@
+.button-box-cicle {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.85);
+  transition: width .5s, height .5s;
+}
+
+.button-box-cicle:hover {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+@media screen and (max-width: 1439px) {
+  .button-box-cicle {
+    background-color: rgba(250, 176, 71, 0.35);
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .button-box-cicle {
+    width: 4px;
+    height: 4px;
+  }
+}

@@ -6,3 +6,16 @@
   line-height: 1.19;
   color: #fff;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__title {
+    font-size: 12px;
+    line-height: 1.05;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .footer__title {
+    font-size: 10px;
+  }
+}

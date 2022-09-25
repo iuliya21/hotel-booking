@@ -6,4 +6,28 @@
   line-height: 1.19;
   color: #D9DBDE;
   text-decoration: none;
+  transition: opacity .2s linear .2s;
+}
+
+.footer__item:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__item {
+    font-size: 12px;
+    line-height: 1.05;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .footer__item {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .footer__item {
+    display: none;
+  }
 }

@@ -3,4 +3,11 @@
   flex-direction: column;
   row-gap: 24px;
   justify-content: center;
+  max-width: 584px;
+}
+
+@media screen and (max-width: 549px) {
+  .benefit__text {
+    row-gap: 12px;
+  }
 }

@@ -8,3 +8,16 @@
   color: #848FAC;
   max-width: 584px;
 }
+
+@media screen and (max-width: 1023px) {
+  .benefit__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .benefit__subtitle {
+    font-size: 10px;
+    text-align: center;
+  }
+}

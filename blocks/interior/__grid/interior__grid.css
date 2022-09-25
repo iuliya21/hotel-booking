@@ -1,6 +1,13 @@
 .interior__grid {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1090px 344px;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 3px;
+}
+
+@media screen and (max-width: 1439px) {
+  .interior__grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }

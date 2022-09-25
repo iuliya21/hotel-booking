@@ -37,12 +37,21 @@
 @import url(../blocks/benefit/__text/benefit__text.css);
 @import url(../blocks/benefit/__title/benefit__title.css);
 @import url(../blocks/benefit/__subtitle/benefit__subtitle.css);
+@import url(../blocks/benefit/__image/benefit__image.css);
 
 @import url(../blocks/interior/interior.css);
 @import url(../blocks/interior/__title/interior__title.css);
 @import url(../blocks/interior/__grid/interior__grid.css);
 @import url(../blocks/interior/__big-image/interior__big-image.css);
 @import url(../blocks/interior/__small-image/interior__small-image.css);
+
+@import url(../blocks/button-box/button-box.css);
+@import url(../blocks/button-box/_place/button-box_place_interior.css);
+@import url(../blocks/button-box/_place/button-box_place_reviews.css);
+@import url(../blocks/button-box/__cicle/button-box__cicle.css);
+@import url(../blocks/button-box/__cicle/_active/bitton-box__cicle_active.css);
+@import url(../blocks/button-box/__cicle/_place/button-box__cicle_place_interior.css);
+@import url(../blocks/button-box/__cicle/_place/button-box__cicle_place_reviews.css);
 
 @import url(../blocks/reservation/reservation.css);
 @import url(../blocks/reservation/__title/reservation__title.css);
@@ -51,6 +60,13 @@
 @import url(../blocks/reservation/__house-title/reservation__house-title.css);
 @import url(../blocks/reservation/__house-subtitle/reservation__house-subtitle.css);
 @import url(../blocks/reservation/__house-link/reservation__house-link.css);
+@import url(../blocks/reservation/__image/reservation__image.css);
+@import url(../blocks/reservation//__grid-one/reservation__grid-one.css);
+@import url(../blocks/reservation//__grid-two/reservation__grid-two.css);
+@import url(../blocks/reservation//__grid-three/reservation__grid-three.css);
+@import url(../blocks/reservation//__grid-four/reservation__grid-four.css);
+@import url(../blocks/reservation//__grid-five/reservation__grid-five.css);
+@import url(../blocks/reservation//__grid-six/reservation__grid-six.css);
 
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__title/reviews__title.css);
@@ -68,3 +84,4 @@
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link-logo/footer__link-logo.css);

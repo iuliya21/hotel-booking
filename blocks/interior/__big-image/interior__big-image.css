@@ -1,4 +1,12 @@
 .interior__big-image {
   grid-row-start: 1;
   grid-row-end: 4;
-} 
+  width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .interior__big-image {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}

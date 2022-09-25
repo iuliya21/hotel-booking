@@ -1,3 +1,15 @@
 .reservation {
   padding: 80px 0 80px;
 }
+
+@media screen and (max-width: 1279px) {
+  .reservation {
+    padding: 60px 20px 60px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .reservation {
+    padding: 20px 10px 20px;
+  }
+}

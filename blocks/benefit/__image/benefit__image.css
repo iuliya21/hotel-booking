@@ -1,0 +1,16 @@
+.benefit__image {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1023px) {
+  .benefit__image {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .benefit__image {
+    max-width: 300px;
+  }
+}

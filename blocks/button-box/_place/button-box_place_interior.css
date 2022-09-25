@@ -1,0 +1,19 @@
+.button-box_place_interior {
+  position: absolute;
+  left: 530px;
+  bottom: 28px;
+}
+
+@media screen and (max-width: 1439px) {
+  .button-box_place_interior {
+    left: 50vw;
+    bottom: -28px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .button-box_place_interior {
+    bottom: -10px;
+    left: 40vw;
+  }
+}

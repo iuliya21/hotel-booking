@@ -10,3 +10,23 @@
   line-height: 1.19;
   column-gap: 36px;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__nav-links {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__nav-links {
+    font-size: 12px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .header__nav-links {
+    display: none;
+  }
+}

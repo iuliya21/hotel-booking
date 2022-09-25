@@ -5,3 +5,25 @@
   column-gap: 126px;
   max-width: 1200px;
 }
+
+@media screen and (max-width: 1279px) {
+  .about-us {
+    padding: 80px 20px 80px;
+    column-gap: 80px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .about-us {
+    padding: 20px 10px 20px;
+    max-width: 880px;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .about-us {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}

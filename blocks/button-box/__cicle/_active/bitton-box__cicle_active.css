@@ -1,0 +1,12 @@
+.bitton-box__cicle_active {
+  width: 12px;
+  height: 12px;
+  background-color: #FAB047;
+}
+
+@media screen and (max-width: 549px) {
+  .bitton-box__cicle_active {
+    width: 6px;
+    height: 6px;
+  }
+}

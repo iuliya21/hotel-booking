@@ -7,3 +7,15 @@
   row-gap: 24px;
   max-width: 186px;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__list {
+    row-gap: 18px;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .footer__list {
+    row-gap: 10px;
+  }
+}

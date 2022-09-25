@@ -3,6 +3,32 @@
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 177px;
+  padding: 80px 0 177px;
+}
+
+@media screen and (max-width: 1279px) {
+  .booking-house {
+    padding: 80px 20px 120px;
+    max-width: 1060px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .booking-house {
+    max-width: 840px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .booking-house {
+    padding: 30px 20px 80px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .booking-house {
+    flex-direction: column;
+    row-gap: 25px;
+    padding: 20px;
+  }
 }

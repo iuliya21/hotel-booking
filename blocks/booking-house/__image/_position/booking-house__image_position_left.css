@@ -3,8 +3,8 @@
     background-image: url(../../../../images/meritt-thomas-1.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 180px;
-    height: 588px;
+    max-width: 180px;
+    max-height: 588px;
   }
 }
 

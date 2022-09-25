@@ -7,3 +7,10 @@
   color: #192252;
   line-height: 1.22;
 }
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}

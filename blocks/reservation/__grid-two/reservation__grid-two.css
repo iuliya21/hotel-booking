@@ -1,0 +1,8 @@
+@media screen and (max-width: 549px) {
+  .reservation__grid-two {
+    grid-column: 2;
+    grid-row: 1;
+    z-index: 1;
+    align-self: end;
+  }
+}

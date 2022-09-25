@@ -7,4 +7,5 @@
   background-color: #fff;
   max-width: 1440px;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }

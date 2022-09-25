@@ -8,3 +8,15 @@
   text-align: center;
   margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .reservation__title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .reservation__title {
+    font-size: 15px;
+  }
+}
